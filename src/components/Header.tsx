@@ -4,10 +4,10 @@ function Header() {
   return (
     <header className="flex justify-between bg-black px-7 py-3 text-white">
         <div>
-            <h1 className="font-bold text-lg">Yishmael&rsquo;s Portfolio</h1>
+            <h1 className="font-bold text-lg">AYT</h1>
         </div>
         <nav>
-            Menu Items
+            Home | About | Projects | Contact | Resume
         </nav>
     </header>
   )

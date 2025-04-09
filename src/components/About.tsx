@@ -3,23 +3,23 @@ import Image from 'next/image'
 
 function About() {
   return (
-    <section className="p-7 ">
-        <div className="p-10">
-            <h1 className="text-center text-5xl font-bold mb-5">About Me</h1>
+    <section className="px-7 bg-black text-white">
+        <div className="px-10 py-5 ">
+            <h1 className="text-center text-4xl font-bold mb-5">About Me</h1>
             <div className="grid grid-cols-3 gap-10 p-10 items-center">
                 <div className="col-span-2">
-                    <p className="text-2xl mb-10">I&rsquo;m a software engineer specializing in frontend development, backend development, system architecture, and cloud solutions. I build high-performance applications that scale seamlessly while ensuring security and efficiency.</p>
+                    <p className="mb-10">I&rsquo;m Akinnubi Yishmael Tolulope, a software engineer specializing in frontend development, backend development, system architecture, and cloud solutions. I build high-performance applications that scale seamlessly while ensuring security and efficiency.</p>
                     <div className="grid grid-cols-2 mb-10">
                         <div className="flex items-center">
                             <h2 className="text-4xl font-bold">10+</h2> <span className="text-2xl px-2">Years of Experience.</span>
                         </div>
                         <div className="flex items-center"> 
-                            <h2 className="text-4xl font-bold">30+</h2> <span className="text-2xl px-2">Clients Served.</span>
+                            <h2 className="text-4xl font-bold">50+</h2> <span className="text-2xl px-2">Projects Completed.</span>
                         </div>
                     </div>
                     <div>
-                        <h4 className="text-3xl font-bold">Key Focus Areas</h4>
-                        <ul className="text-2xl my-3">
+                        <h4 className="text-2xl font-bold">Key Focus Areas</h4>
+                        <ul className="my-3">
                             <li>
                                 <b>Backend Engineering:</b> RESTful APIs, GraphQL, WebSockets, Microservices. 
                             </li>
