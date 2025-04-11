@@ -3,16 +3,16 @@ import Image from "next/image"
 
 function Projects() {
     return (
-        <section className="p-7 ">
+        <section className="p-7 bg-[url(/images/pexels-earano-1330218.jpg)] bg-cover bg-no-repeat bg-center">
             <div className="p-10">
                 <h1 className="text-center text-4xl font-bold mb-5">Recent Projects</h1>
                 <p className="text-center"></p>
                 <div className="grid grid-cols-4 grid-rows-2 gap-2 p-5 ">
-                    <div className="col">
+                    <div className="col bg-white rounded-3xl">
                         <div className="max-w-sm rounded overflow-hidden shadow-lg">
                             <Image className="w-full h-48" src="/images/wns/1.jpg" alt="Work-now staffing image" width={310} height={100} />
                             <div className="px-6 pt-0 pb-4">
-                                <div className="font-bold text-xl mb-2">Work-Now Staffing</div>
+                                <div className="font-bold text-xl mb-2 text-black">Work-Now Staffing</div>
                                 <p className="text-gray-700 text-base">
                                     Developed and maintained the Work-Now Staffing website, a platform connecting businesses with qualified staff.
                                 </p>
@@ -27,11 +27,11 @@ function Projects() {
                             </div>
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col bg-white rounded-3xl">
                         <div className="max-w-sm rounded overflow-hidden shadow-lg">
                             <Image className="w-full h-48 pb-2" src="/images/cgf/1.jpg" alt="Sunset in the mountains" width={300} height={100} />
                             <div className="px-6 pt-0 pb-4">
-                                <div className="font-bold text-xl mb-2">City Girl Furniture</div>
+                                <div className="font-bold text-xl mb-2 text-black">City Girl Furniture</div>
                                 <p className="text-gray-700 text-base">
                                     Built and maintained the City Girl Furniture e-commerce platform, focusing on creating a user-friendly online shopping experience.
                                 </p>
@@ -46,11 +46,11 @@ function Projects() {
                             </div>
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col bg-white rounded-3xl">
                         <div className="max-w-sm rounded overflow-hidden shadow-lg">
                             <Image className="w-full h-48" src="/images/erm/1.jpg" alt="Sunset in the mountains" width={300} height={100} />
                             <div className="px-6 pt-0 pb-4">
-                                <div className="font-bold text-xl mb-2">EverReady Meals</div>
+                                <div className="font-bold text-xl mb-2 text-black">EverReady Meals</div>
                                 <p className="text-gray-700 text-base">
                                     Revamped the EverReady Meals website, an online African meal delivery platform ensuring a smooth user experience.
                                 </p>
@@ -65,11 +65,11 @@ function Projects() {
                             </div>
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col bg-white rounded-3xl">
                         <div className="max-w-sm rounded overflow-hidden shadow-lg">
                             <Image className="w-full h-48" src="/images/nbc/1.jpg" alt="Sunset in the mountains" width={300} height={100} />
                             <div className="px-6 pt-0 pb-4">
-                                <div className="font-bold text-xl mb-2">Nixbourne Consult</div>
+                                <div className="font-bold text-xl mb-2 text-black">Nixbourne Consult</div>
                                 <p className="text-gray-700 text-base">
                                     Developed the Nixbourne Consult website, a professional platform showcasing their IT consulting and Recruitment services.
                                 </p>
@@ -86,11 +86,11 @@ function Projects() {
                     </div>
 
 
-                    <div className="col">
+                    <div className="col bg-white rounded-3xl">
                         <div className="max-w-sm rounded overflow-hidden shadow-lg">
                             <Image className="w-full h-48" src="/images/kfb/1.jpg" alt="Sunset in the mountains" width={300} height={100} />
                             <div className="px-6 pt-0 pb-4">
-                                <div className="font-bold text-xl mb-2">KFB Integrated Oil Services</div>
+                                <div className="font-bold text-xl mb-2 text-black">KFB Integrated Oil Services</div>
                                 <p className="text-gray-700 text-base">
                                     Implemented the KFB Integrated website using a CMS, ensuring easy updates and accurate information delivery.
                                 </p>
@@ -106,11 +106,11 @@ function Projects() {
                         </div>
                     </div>
 
-                    <div className="col">
+                    <div className="col bg-white rounded-3xl">
                         <div className="max-w-sm rounded overflow-hidden shadow-lg">
                             <Image className="w-full h-45" src="/images/tlm/1.jpg" alt="Sunset in the mountains" width={300} height={100} />
-                            <div className="px-6 pt-0 pb-4">
-                                <div className="font-bold text-xl mb-2">Traffic And Law Mgt.</div>
+                            <div className="px-6 pt-2 pb-5">
+                                <div className="font-bold text-xl mb-2 text-black">Traffic And Law Mgt.</div>
                                 <p className="text-gray-700 text-base">
                                     Reporting App is a traffic and law enforcement management application built with CodeIgniter using HMVC architecture.
                                 </p>
@@ -125,11 +125,11 @@ function Projects() {
                             </div>
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col bg-white rounded-3xl">
                         <div className="max-w-sm rounded overflow-hidden shadow-lg">
                             <Image className="w-full h-45" src="/images/spl/1.png" alt="Sunset in the mountains" width={300} height={100} />
-                            <div className="px-6 pt-0 pb-4">
-                                <div className="font-bold text-xl mb-2">Safe Places (Covid-19)</div>
+                            <div className="px-6 pt-2 pb-5">
+                                <div className="font-bold text-xl mb-2 text-black">Safe Places (Covid-19)</div>
                                 <p className="text-gray-700 text-base">
                                     Safe Places Frontend is a web application designed to provide users with real-time safety ratings for stores.
                                 </p>
@@ -144,11 +144,11 @@ function Projects() {
                             </div>
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col bg-white rounded-3xl">
                         <div className="max-w-sm rounded overflow-hidden shadow-lg">
                             <Image className="w-full h-48" src="/images/hbm/1.jpg" alt="Sunset in the mountains" width={300} height={100} />
                             <div className="px-6 pt-0 pb-4">
-                                <div className="font-bold text-xl mb-2">Hotbym Hotel Mgt.</div>
+                                <div className="font-bold text-xl mb-2 text-black">Hotbym Hotel Mgt.</div>
                                 <p className="text-gray-700 text-base">
                                     Finance Project is a Laravel application that tracks project financing and allocation for state-level financial management.
                                 </p>
