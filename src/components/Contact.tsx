@@ -15,9 +15,9 @@ function Contact() {
             <div className="col-span-1 px-10">
                 <p className="text-2xl mb-1">You can also find me on:</p>
                 <ul className="text-2xl mb-10">
-                    <li><a href="#" className="text-blue-500">LinkedIn</a></li>
-                    <li><a href="#" className="text-blue-500">GitHub</a></li>
-                    <li><a href="#" className="text-blue-500">Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/in/yishmael" target="_blank" className="text-blue-500">LinkedIn</a></li>
+                    <li><a href="https://github.com/yish-mael" target="_blank" className="text-blue-500">GitHub</a></li>
+                    <li><a href="https://x.com/yish_mael" target="_blank" className="text-blue-500">Twitter</a></li>
                 </ul>
             </div>
 
