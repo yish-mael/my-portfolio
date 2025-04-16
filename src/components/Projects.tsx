@@ -3,7 +3,7 @@ import Image from "next/image"
 
 function Projects() {
     return (
-        <section className="p-7 bg-[url(/images/pexels-earano-1330218.jpg)] bg-cover bg-no-repeat bg-center">
+        <section id="projects" className="p-7 bg-[url(/images/pexels-earano-1330218.jpg)] bg-cover bg-no-repeat bg-center">
             <div className="p-10">
                 <h1 className="text-center text-4xl font-bold mb-5">Recent Projects</h1>
                 <p className="text-center"></p>

@@ -6,7 +6,7 @@ function Hero() {
   const imageLoader = () => `https://ui-avatars.com/api/?name=A+T`
 
   return (
-    <section className="p-0">
+    <section id="home" className="p-0">
 
       <div className="relative flex items-center justify-center h-screen mb-12 overflow-hidden">
         <div className="relative z-30 text-white">
@@ -32,7 +32,7 @@ function Hero() {
           className="absolute z-10 w-auto min-w-full min-h-full max-w-none"
         >
           <source
-            src="https://assets.mixkit.co/videos/14165/14165-720.mp4"
+            src="https://videos.pexels.com/video-files/6804121/6804121-sd_960_506_25fps.mp4"
             type="video/mp4"
           />
           Your browser does not support the video tag.
