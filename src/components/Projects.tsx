@@ -3,11 +3,11 @@ import Image from "next/image"
 
 function Projects() {
     return (
-        <section id="projects" className="p-7 bg-[url(/images/pexels-earano-1330218.jpg)] bg-cover bg-no-repeat bg-center">
+        <section id="projects" className="p-4 sm:p-7 bg-[url(/images/pexels-earano-1330218.jpg)] bg-cover bg-no-repeat bg-center">
             <div className="p-10">
                 <h1 className="text-center text-4xl font-bold mb-5">Recent Projects</h1>
                 <p className="text-center"></p>
-                <div className="grid grid-cols-4 grid-rows-2 gap-3 p-5 ">
+                <div className="grid grid-cols-1 sm:grid-cols-4 grid-rows-2 gap-3 p-5">
                     <div className="col bg-white rounded-3xl">
                         <div className="max-w-sm rounded overflow-hidden shadow-lg">
                             <Image className="w-full h-48" src="/images/wns/1.jpg" alt="Work-now staffing image" width={310} height={100} />

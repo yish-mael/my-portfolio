@@ -2,11 +2,11 @@ import React from 'react'
 
 function Contact() {
   return (
-    <section id="contact" className="p-7">
+    <section id="contact" className="p-4 sm:p-7">
         <div className="p-10">
             <h1 className="text-4xl text-center font-bold">Connect with me</h1>
         </div>
-        <div className="py-10 px-50 grid grid-cols-2 gap-10 items-center">
+        <div className="py-10 px-5 grid grid-cols-1 sm:grid-cols-2 gap-10 items-center">
             
             <div className="col-span-1 px-10">
                 <p className="text-2xl mb-10">I&rsquo;d love to hear from you! Whether you have a question, a project in mind, or just want to say hi, feel free to reach out.</p>

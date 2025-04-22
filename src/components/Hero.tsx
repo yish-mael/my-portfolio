@@ -6,7 +6,7 @@ function Hero() {
   const imageLoader = () => `https://ui-avatars.com/api/?name=A+T`
 
   return (
-    <section id="home" className="p-0">
+    <section id="home" className="p-4 sm:p-0">
 
       <div className="relative flex items-center justify-center h-screen mb-12 overflow-hidden">
         <div className="relative z-30 text-white">

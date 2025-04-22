@@ -3,13 +3,13 @@ import Image from 'next/image'
 
 function About() {
   return (
-    <section id="about" className="px-7 bg-black text-white">
+    <section id="about" className="px-4 sm:px-7 bg-black text-white">
         <div className="px-10 py-5 ">
             <h1 className="text-center text-4xl font-bold mb-5">About Me</h1>
-            <div className="grid grid-cols-3 gap-10 p-10 items-center">
+            <div className="grid gap-10 p-2 items-center grid-col-1 sm:grid-cols-3 sm:p-10 ">
                 <div className="col-span-2">
                     <p className="mb-5">Hi, I&lsquo;m Akinnubi Yishmael Tolulope — a software engineer passionate about building high-performance, scalable applications. With expertise spanning frontend and backend development, system architecture, and cloud solutions, I craft secure, efficient systems that solve real-world problems and drive business success.</p>
-                    <div className="grid grid-cols-2 mb-5">
+                    <div className="grid gap-3 sm:grid-cols-2 mb-5">
                         <div className="flex items-center">
                             <h2 className="text-4xl font-bold">10+</h2> <span className="text-2xl px-2">Years of Experience.</span>
                         </div>
@@ -71,8 +71,8 @@ function About() {
 
                     </div>
                 </div>
-                <div>
-                    <Image src="/images/about-me1.jpg" className="rounded-4xl" width={400} height={500} alt="" />
+                <div className="order-first sm:order-last">
+                    <Image src="/images/about-me1.jpg" className="rounded-4xl w-1000" width={400} height={500} alt="" />
                 </div>
             </div>
         </div>    
