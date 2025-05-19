@@ -7,7 +7,7 @@ import Projects from "@/components/Projects"
 
 export default function Home() {
   return (
-    <main className="relative bg-black text-white">
+    <main className="relative bg-black text-white px-0">
       <Header />
       <Hero />
       <About />

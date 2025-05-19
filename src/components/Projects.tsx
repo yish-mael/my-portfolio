@@ -3,8 +3,8 @@ import Image from "next/image"
 
 function Projects() {
     return (
-        <section id="projects" className="p-4 sm:p-7 bg-[url(/images/pexels-earano-1330218.jpg)] bg-cover bg-no-repeat bg-center">
-            <div className="p-10">
+        <section id="projects" className="py-4 sm:p-7 bg-[url(/images/pexels-earano-1330218.jpg)] bg-cover bg-no-repeat bg-center">
+            <div className="py-10 px-5">
                 <h1 className="text-center text-4xl font-bold mb-5">Recent Projects</h1>
                 <p className="text-center"></p>
                 <div className="grid grid-cols-1 sm:grid-cols-4 grid-rows-2 gap-3 p-5">
@@ -12,13 +12,13 @@ function Projects() {
                         <div className="max-w-sm rounded overflow-hidden shadow-lg">
                             <Image className="w-full h-48" src="/images/wns/1.jpg" alt="Work-now staffing image" width={310} height={100} />
                             <div className="px-6 pt-0 pb-4">
-                                <div className="font-bold text-xl mb-2 text-black">Work-Now Staffing</div>
+                                <div className="font-bold text-xl mb-2 text-black">NoHat Staffing</div>
                                 <p className="text-gray-700 text-base">
-                                    Developed and maintained the Work-Now Staffing website, a platform connecting businesses with qualified staff.
+                                    Developed and maintained the NoHat Staffing website, a platform connecting businesses with qualified staff.
                                 </p>
                             </div>
                             <div className="px-6 pt-2 pb-6 text-right">
-                                <a href="https://work-nowstaffing.com/" target="_blank" rel="noopener noreferrer" className="text-white bg-gray-800 hover:bg-black focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm px-5 py-2 rounded-full text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                <a href="https://nohatstaffing.com/" target="_blank" rel="noopener noreferrer" className="text-white bg-gray-800 hover:bg-black focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm px-5 py-2 rounded-full text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                                     Visit Site
                                     <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                                         <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
@@ -27,6 +27,7 @@ function Projects() {
                             </div>
                         </div>
                     </div>
+
                     <div className="col bg-white rounded-3xl">
                         <div className="max-w-sm rounded overflow-hidden shadow-lg">
                             <Image className="w-full h-48 pb-2" src="/images/cgf/1.jpg" alt="Sunset in the mountains" width={300} height={100} />
@@ -46,6 +47,7 @@ function Projects() {
                             </div>
                         </div>
                     </div>
+
                     <div className="col bg-white rounded-3xl">
                         <div className="max-w-sm rounded overflow-hidden shadow-lg">
                             <Image className="w-full h-48" src="/images/erm/1.jpg" alt="Sunset in the mountains" width={300} height={100} />
@@ -65,6 +67,7 @@ function Projects() {
                             </div>
                         </div>
                     </div>
+
                     <div className="col bg-white rounded-3xl">
                         <div className="max-w-sm rounded overflow-hidden shadow-lg">
                             <Image className="w-full h-48" src="/images/nbc/1.jpg" alt="Sunset in the mountains" width={300} height={100} />
@@ -84,7 +87,6 @@ function Projects() {
                             </div>
                         </div>
                     </div>
-
 
                     <div className="col bg-white rounded-3xl">
                         <div className="max-w-sm rounded overflow-hidden shadow-lg">
@@ -125,6 +127,7 @@ function Projects() {
                             </div>
                         </div>
                     </div>
+
                     <div className="col bg-white rounded-3xl">
                         <div className="max-w-sm rounded overflow-hidden shadow-lg">
                             <Image className="w-full h-45" src="/images/spl/1.png" alt="Sunset in the mountains" width={300} height={100} />
@@ -144,6 +147,7 @@ function Projects() {
                             </div>
                         </div>
                     </div>
+
                     <div className="col bg-white rounded-3xl">
                         <div className="max-w-sm rounded overflow-hidden shadow-lg">
                             <Image className="w-full h-48" src="/images/hbm/1.jpg" alt="Sunset in the mountains" width={300} height={100} />
@@ -164,6 +168,7 @@ function Projects() {
                         </div>
                     </div>    
                 </div>
+
                 <div className="text-center">
                     <a href="https://github.com/yish-mael" target="_blank" className="text-white bg-gray-800 hover:bg-black focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm px-5 py-2 rounded-full text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                         More Projects on GitHub

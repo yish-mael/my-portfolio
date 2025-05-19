@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function About() {
   return (
-    <section id="about" className="px-4 sm:px-7 bg-black text-white">
+    <section id="about" className=" sm:px-7 bg-black text-white">
         <div className="px-10 py-5 ">
             <h1 className="text-center text-4xl font-bold mb-5">About Me</h1>
             <div className="grid gap-10 p-2 items-center grid-col-1 sm:grid-cols-3 sm:p-10 ">
@@ -72,7 +72,7 @@ function About() {
                     </div>
                 </div>
                 <div className="order-first sm:order-last">
-                    <Image src="/images/about-me1.jpg" className="rounded-4xl w-1000" width={400} height={500} alt="" />
+                    <Image src="/images/about-me1.jpg" className="rounded-4xl" width={3000} height={100} alt="" />
                 </div>
             </div>
         </div>    
